@@ -1,5 +1,6 @@
 :root {
-    font-family: Arial
+    font-family: Arial;
+    --color-main: #343374;
 }
 
 h1 {
@@ -41,11 +42,12 @@ h1 {
     width: fit-content;
     padding: 0;
     list-style: none;
+    color: var(--color-main);
 }
 
 .header {
     height: 50vh;
-    background: linear-gradient(to right bottom, #FF4F4F, #FF7D1B);
+    background: linear-gradient(to right bottom, #343374, #7b62eb);
     color: #FFF; 
     text-align: center;
     display: grid;
