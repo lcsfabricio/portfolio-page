@@ -13,7 +13,6 @@ h1 {
 
 .introduction {
     position: relative;
-    border: 5px solid green;
     top: -75px;
     text-align: center;
 
@@ -34,7 +33,8 @@ h1 {
     
 }
 
-.introduction__links {
+.introduction__links,
+.footer__links {
     display: grid;
     grid-auto-flow: column;
     gap: 16px;
@@ -56,6 +56,23 @@ h1 {
 
 }
 
+.footer {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 16px;
+    background: #000;
+    color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.footer__links {
+    justify-self: end;
+    margin: 0;
+}
 body {
     margin: 0
 }
