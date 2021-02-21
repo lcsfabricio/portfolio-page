@@ -1,0 +1,59 @@
+:root {
+    font-family: Arial
+}
+
+h1 {
+    margin:0;
+    text-shadow: 0 4px 4px #0004;
+    width: 15ch;
+    
+
+}
+
+.introduction {
+    position: relative;
+    border: 5px solid green;
+    top: -75px;
+    text-align: center;
+
+}
+
+.introduction__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 4px #0004;
+}
+
+.introduction__copy {
+    margin: 32px auto;
+    max-width: 75ch;
+    font-style: italic;
+    
+}
+
+.introduction__links {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    height: 50vh;
+    background: linear-gradient(to right bottom, #FF4F4F, #FF7D1B);
+    color: #FFF; 
+    text-align: center;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 4px #0004;
+
+}
+
+body {
+    margin: 0
+}

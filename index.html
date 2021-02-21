@@ -3,61 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Portfólio</title>
-    <style>
-        :root {
-            font-family: Arial
-        }
-
-        h1 {
-            margin:0;
-            text-shadow: 0 4px 4px #0004;
-            width: 15ch;
-            
-        
-        }
-        
-        .introduction {
-            position: relative;
-            border: 5px solid green;
-            top: -75px;
-            text-align: center;
-
-        }
-
-        .introduction__avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-            box-shadow: 0 4px 4px #0004;
-        }
-
-        .introduction p {
-                margin: 32px auto;
-            max-width: 75ch;
-            font-style: italic;
-            
-        }
-        
-        .header {
-            height: 50vh;
-            background: linear-gradient(to right bottom, #FF4F4F, #FF7D1B);
-            color: #FFF; 
-            text-align: center;
-            display: grid;
-            place-items: center;
-            box-shadow: 0 4px 4px #0004;
-
-        }
-
-        body {
-            margin: 0
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -69,25 +16,14 @@
     <section class="introduction">
         
         <img class="introduction__avatar" src="lucas.jpg" alt="Lucas Fabrício"/>
-        <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Corporis pariatur,deleniti repellat tempore eum suscipit velit maiores minus eaque temporibus natus ea qui eius quos, dignissimos, facilis quisquam. Ipsam, autem!</p>
+        <p class="introduction__copy"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis pariatur,deleniti repellat tempore eum suscipit velit maiores minus eaque temporibus natus ea qui eius quos, dignissimos, facilis quisquam. Ipsam, autem!   
+        </p>
+        <ul class="introduction__links">
+            <li>Linkedin</li>
+            <li>Skype</li>
+            <li>Whatsapp</li>
+        </ul>
     </section>
 
-
-
-
-
-
-
-
-
-
-
 </body>
-
-
-
-
-
-
-
 </html>
